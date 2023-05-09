@@ -315,47 +315,47 @@
     animation: top-movement 2s infinite linear;
 }
 
-/* Bottom Movement
+
 @keyframes bottom-movement {
     0% {
-        top: -10px;
+        bottom: -10px;
         right: 0%;
     }
 
 
     10% {
-        top: -10px;
+        bottom: -10px;
         right: 50%;
     }
 
     25% {
-        top: -10px;
+        bottom: -10px;
         right: 75%;
     }
 
     45% {
-        top: 50px;
+        bottom: 50px;
         right: 75%;
 
     }
 
     60% {
-        top: 50px;
+        bottom: 50px;
         right: 25%;
     }
 
     75% {
-        top: 50px;
-        right: 0%;
+        bottom: 50px;
+        right: -10px;
 
     }
 
     100% {
-        top: 0%;
-        right: 0%;
+        bottom: 0%;
+        right: -10px;
     }
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
     animation: bottom-movement 2s infinite linear;
-} */
+}
