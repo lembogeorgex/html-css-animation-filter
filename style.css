@@ -273,27 +273,41 @@
 
 @keyframes top-movement {
     0% {
-        left: 0;
+
+        top: -10px;
+        left: 0%;
     }
 
     25% {
+
+        top: -10px;
+
         left: 25%;
     }
 
+    50% {
+
+        top: -10px;
+
+        left: 50%;
+    }
+
     75% {
+
+        top: -10px;
+
         left: 75%;
     }
 
-
     100% {
-        right: 0%;
+
         top: 50px;
+        left: 75%;
     }
 }
 
 .ex-13-button:hover .ex-13-top-white {
     animation: top-movement 3s linear;
-
 }
 
 
