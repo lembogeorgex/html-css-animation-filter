@@ -223,7 +223,7 @@
 
 
 
-@keyframes bottom-movement {
+@keyframes down-movement {
     0% {
 
         right: 0%;
@@ -243,13 +243,14 @@
         right: 75%;
     }
 
+
     100% {
         right: 0%;
     }
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: bottom-movement 2s linear;
+    animation: down-movement 2s linear;
 
 }
 
